@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-/*
+
 int main() {
 	char cSymbol;
 	double a, b, c, d;
@@ -25,4 +25,4 @@ int main() {
 	}
 
 	return 0;
-}//*/
+}
