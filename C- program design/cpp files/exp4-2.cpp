@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-/*
+
 int main() {
 	int x, y, a, b, c;
 	cout << "Please input numbers for x, y, a, b and c:" << endl;
@@ -14,4 +14,4 @@ int main() {
 	cout << "3 < x < 5 || y>3 && y < 2     =     " << (3 < x < 5 || y>3 && y < 2) << endl;
 
 	return 0;
-}//*/
+}
