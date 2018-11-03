@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-/*
+
 int main() {
 	cout << "the size of short:" << sizeof(short) << endl << "the size of int:" << sizeof(int) << endl;
 	cout << "the size of long:" << sizeof(long) << endl << "the size of unsigned short:" << sizeof(unsigned short) << endl;
@@ -29,4 +29,4 @@ int main() {
 	cout << "在VS中float类型默认总共保存的小数位数为：" << iNum2 << endl;
 
 	return 0;
-}*/
+}
