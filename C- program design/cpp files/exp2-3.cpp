@@ -5,7 +5,7 @@ using namespace std;
 /*
 基于凯撒密码的加密&解密程序
 */
-/*
+
 int main() {
 	char cProgramStatus; //用于进入相应状态的变量
 	int iKeyNumber; //加密或解密所用密钥
@@ -56,4 +56,4 @@ start:
 		return 0;  //退出程序
 	else
 		{ cerr << "输入错误，请重新输入：\n"; goto start; return -1; } //返回至获取程序状态阶段
-}*/
+}
