@@ -4,13 +4,13 @@ using namespace std;
 /*
 int main() {
 	int iChicken, iHen, iRooster, max = 1;
-	cout << "ËùÇó¹ºÂò·½°¸Îª£º\n";
+	cout << "æ‰€æ±‚è´­ä¹°æ–¹æ¡ˆä¸ºï¼š\n";
 	for (iRooster = 1; iRooster < 99; iRooster++) {
 		for (iChicken = 1; iChicken < 99; iChicken++) {
 			for (iHen = 97; iHen > 1; iHen--) {
 				if ((iChicken + iHen + iRooster == 100) && (5 * iChicken + 15 * iHen + 10 * iRooster < 1001) && iHen >= max) {
 					max = iHen;
-					cout << "Ä¸¼¦£º" << iHen << "Ö»\n¹«¼¦£º" << iRooster << "Ö»\nÐ¡¼¦£º" << iChicken << "Ö»\nÊ£Óà½ð¶î£º" << 1000- (5 * iChicken + 15 * iHen + 10 * iRooster) << "\n\n";
+					cout << "æ¯é¸¡ï¼š" << iHen << "åª\nå…¬é¸¡ï¼š" << iRooster << "åª\nå°é¸¡ï¼š" << iChicken << "åª\nå‰©ä½™é‡‘é¢ï¼š" << 1000- (5 * iChicken + 15 * iHen + 10 * iRooster) << "\n\n";
 				}
 			}
 		}
