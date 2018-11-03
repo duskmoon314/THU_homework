@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-/*
+
 int main() {
 	int a, b, c; 
 	// 不妨用abc来表示甲乙丙三人说话真假状态 值为1表示说真话，为0表示说假话
@@ -34,4 +34,4 @@ int main() {
 	}
 	return 0;
 
-}//*/
+}
