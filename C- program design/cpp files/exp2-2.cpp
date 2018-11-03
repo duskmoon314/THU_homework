@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-/*
+
 int main() {
 	char c1, c2, c3;
 	cout << "please input a number (0-9):";
@@ -11,4 +11,3 @@ int main() {
 	
 	return 0;
 }
-*/
