@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
-/*
+
 int main() {
 	int iChicken, iHen, iRooster, max = 1;
 	cout << "所求购买方案为：\n";
@@ -17,4 +17,4 @@ int main() {
 	}
 
 	return 0;
-}//*/
+}
