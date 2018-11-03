@@ -36,7 +36,7 @@ int main() {
 }
 
 /*
-以下为采用字符数组的方法
+浠ヤ笅涓洪噰鐢ㄥ瓧绗︽暟缁勭殑鏂规硶
 int main() {
 	char str[6];
 	cout << "please input an integer:\n";
