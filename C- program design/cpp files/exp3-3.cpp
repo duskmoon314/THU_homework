@@ -3,24 +3,24 @@
 using namespace std;
 /*
 int main() {
-	//为方便使用不同类型存储数据，变量名声明为 phoneNumber
-	//采用long long类型
+	//涓烘柟渚夸娇鐢ㄤ笉鍚岀被鍨嬪瓨鍌ㄦ暟鎹紝鍙橀噺鍚嶅０鏄庝负 phoneNumber
+	//閲囩敤long long绫诲瀷
 	//long long phoneNumber;
 
-	//采用字符数组char[]
+	//閲囩敤瀛楃鏁扮粍char[]
 	//char phoneNumber[12];
 	
-	//采用string类型
+	//閲囩敤string绫诲瀷
 	//string phoneNumber;
 
-	//采用unsigned long long类型
+	//閲囩敤unsigned long long绫诲瀷
 	//unsigned long long phoneNumber;
 
-	//采用double类型
+	//閲囩敤double绫诲瀷
 	double phoneNumber;
 	//long double phoneNumber;
 
-	//采用long float类型
+	//閲囩敤long float绫诲瀷
 	//long float phoneNumber;
 
 	cout.precision(0);
