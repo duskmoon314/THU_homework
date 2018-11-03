@@ -1,6 +1,6 @@
 #include <iostream> //1、原代码缺少#，用""代替<>，语法错误，且后面cin、cout等为未声明标识符；iostream.h为继承C的库，VS报错；
 using namespace std; //2、原代码未使用;，语句不完整
-/*
+
 int main() {
 	int x1, x2;
 	unsigned y;
@@ -20,4 +20,3 @@ int main() {
 	//7、以上引号都需使用英文半角符号而非中文全角符号，否则无法编译通过
 	return(0); //return(0)也可以写成 return 0;
 }
-*/
