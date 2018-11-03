@@ -8,9 +8,9 @@ int main() {
 	cout << "the output is: ";
 	if ((x + y > z) && (y + z > x) && (x + z > y)){
 		switch((x == y) + (x == z) + 1){
-			case 1: cout << "Triangle"; break; //ÈýÌõ±ß»¥²»ÏàµÈ
-			case 2: cout << "Isosceles triangle"; break; //½öÓÐÁ½Ìõ±ßÏàµÈ£¬µÈÑüÈý½ÇÐÎ
-			case 3: cout << "Equilateral triangle"; break; //ÈýÌõ±ß¶¼ÏàµÈ£¬µÈ±ßÈý½ÇÐÎ
+			case 1: cout << "Triangle"; break; //ä¸‰æ¡è¾¹äº’ä¸ç›¸ç­‰
+			case 2: cout << "Isosceles triangle"; break; //ä»…æœ‰ä¸¤æ¡è¾¹ç›¸ç­‰ï¼Œç­‰è…°ä¸‰è§’å½¢
+			case 3: cout << "Equilateral triangle"; break; //ä¸‰æ¡è¾¹éƒ½ç›¸ç­‰ï¼Œç­‰è¾¹ä¸‰è§’å½¢
 		}
 	}
 	else
