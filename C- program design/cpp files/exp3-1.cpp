@@ -25,8 +25,8 @@ int main() {
 		else break;
 	}
 	fTest = 1.0 / 3.0;
-	cout << "ÔÚVSÖĞfloatÀàĞÍ±£ÁôµÄ¾«È·Ğ¡ÊıÎ»ÊıÎª£º" << iNum << endl;
-	cout << "ÔÚVSÖĞfloatÀàĞÍÄ¬ÈÏ×Ü¹²±£´æµÄĞ¡ÊıÎ»ÊıÎª£º" << iNum2 << endl;
+	cout << "åœ¨VSä¸­floatç±»å‹ä¿ç•™çš„ç²¾ç¡®å°æ•°ä½æ•°ä¸ºï¼š" << iNum << endl;
+	cout << "åœ¨VSä¸­floatç±»å‹é»˜è®¤æ€»å…±ä¿å­˜çš„å°æ•°ä½æ•°ä¸ºï¼š" << iNum2 << endl;
 
 	return 0;
 }*/
