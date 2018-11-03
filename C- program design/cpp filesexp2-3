@@ -3,22 +3,22 @@
 using namespace std;
 
 /*
-»ùÓÚ¿­ÈöÃÜÂëµÄ¼ÓÃÜ&½âÃÜ³ÌĞò
+åŸºäºå‡¯æ’’å¯†ç çš„åŠ å¯†&è§£å¯†ç¨‹åº
 */
 /*
 int main() {
-	char cProgramStatus; //ÓÃÓÚ½øÈëÏàÓ¦×´Ì¬µÄ±äÁ¿
-	int iKeyNumber; //¼ÓÃÜ»ò½âÃÜËùÓÃÃÜÔ¿
-	string strSentenceInput; //ÊäÈëµÄĞèÒª¼ÓÃÜµÄÎÄ×Ö»òĞèÒª½âÃÜµÄÃÜÎÄ
-	cout << "´Ë³ÌĞò»ùÓÚ¿­ÈöÃÜÂë¿É¶ÔÒ»¶¨³¤¶ÈµÄÎÄ×Ö½øĞĞ¼ÓÃÜ»ò¶ÔÒ»¶ÎÃÜÎÄ½øĞĞ½âÃÜ¡£\nÄ¿Ç°Ö»Ö§³Ö¶Ô26¸öÓ¢ÎÄ×ÖÄ¸½øĞĞ¼ÓÃÜ»òÕß½âÃÜ£¬ÆäÓà×Ö·ûºÍ¿Õ¸ñ½«±£³Ö²»±ä¡£" << endl;
-	cout << "ÈôĞèÒª½øĞĞ¼ÓÃÜ£¬ÇëÊäÈë1" << endl << "ÈôĞèÒª½øĞĞ½âÃÜ£¬ÇëÊäÈë2" << endl << "ÒªÍË³ö£¬ÇëÊäÈë3" << endl;
+	char cProgramStatus; //ç”¨äºè¿›å…¥ç›¸åº”çŠ¶æ€çš„å˜é‡
+	int iKeyNumber; //åŠ å¯†æˆ–è§£å¯†æ‰€ç”¨å¯†é’¥
+	string strSentenceInput; //è¾“å…¥çš„éœ€è¦åŠ å¯†çš„æ–‡å­—æˆ–éœ€è¦è§£å¯†çš„å¯†æ–‡
+	cout << "æ­¤ç¨‹åºåŸºäºå‡¯æ’’å¯†ç å¯å¯¹ä¸€å®šé•¿åº¦çš„æ–‡å­—è¿›è¡ŒåŠ å¯†æˆ–å¯¹ä¸€æ®µå¯†æ–‡è¿›è¡Œè§£å¯†ã€‚\nç›®å‰åªæ”¯æŒå¯¹26ä¸ªè‹±æ–‡å­—æ¯è¿›è¡ŒåŠ å¯†æˆ–è€…è§£å¯†ï¼Œå…¶ä½™å­—ç¬¦å’Œç©ºæ ¼å°†ä¿æŒä¸å˜ã€‚" << endl;
+	cout << "è‹¥éœ€è¦è¿›è¡ŒåŠ å¯†ï¼Œè¯·è¾“å…¥1" << endl << "è‹¥éœ€è¦è¿›è¡Œè§£å¯†ï¼Œè¯·è¾“å…¥2" << endl << "è¦é€€å‡ºï¼Œè¯·è¾“å…¥3" << endl;
 start:
-	cin >> cProgramStatus;//»ñÈ¡³ÌĞòÓ¦¸Ã½øÈëµÄ×´Ì¬
+	cin >> cProgramStatus;//è·å–ç¨‹åºåº”è¯¥è¿›å…¥çš„çŠ¶æ€
 	if (cProgramStatus == '1') {
-		cout << "ÇëÊäÈë¼ÓÃÜËùÓÃÃÜÔ¿£º" << endl;
+		cout << "è¯·è¾“å…¥åŠ å¯†æ‰€ç”¨å¯†é’¥ï¼š" << endl;
 		cin >> iKeyNumber;
 		iKeyNumber %= 26;
-		cout << "ÇëÊäÈëĞèÒª¼ÓÃÜµÄÎÄ×Ö£º" << endl;
+		cout << "è¯·è¾“å…¥éœ€è¦åŠ å¯†çš„æ–‡å­—ï¼š" << endl;
 		cin.ignore();
 		getline (cin, strSentenceInput, '\n');
 		int iLength = strSentenceInput.size();
@@ -30,14 +30,14 @@ start:
 					strSentenceInput[i] += iKeyNumber;
 			}
 		}
-		cout << "¼ÓÃÜºóËùµÃÃÜÎÄÎª£º\n" << strSentenceInput << endl;
+		cout << "åŠ å¯†åæ‰€å¾—å¯†æ–‡ä¸ºï¼š\n" << strSentenceInput << endl;
 		return 0;
 	}
 	else if (cProgramStatus == '2') {
-		cout << "ÇëÊäÈëÃÜÎÄËùÓÃÃÜÔ¿£º" << endl;
+		cout << "è¯·è¾“å…¥å¯†æ–‡æ‰€ç”¨å¯†é’¥ï¼š" << endl;
 		cin >> iKeyNumber;
 		iKeyNumber %= 26;
-		cout << "ÇëÊäÈëĞèÒª½âÃÜµÄÃÜÎÄ£º" << endl;
+		cout << "è¯·è¾“å…¥éœ€è¦è§£å¯†çš„å¯†æ–‡ï¼š" << endl;
 		cin.ignore();
 		getline(cin, strSentenceInput, '\n');
 		int iLength = strSentenceInput.size();
@@ -49,11 +49,11 @@ start:
 				strSentenceInput[i] -= iKeyNumber;
 			}
 		}
-		cout << "½âÃÜºóËùµÃÎÄ×ÖÎª£º\n" << strSentenceInput << endl;
+		cout << "è§£å¯†åæ‰€å¾—æ–‡å­—ä¸ºï¼š\n" << strSentenceInput << endl;
 		return 0;
 	}
 	else if (cProgramStatus == '3')
-		return 0;  //ÍË³ö³ÌĞò
+		return 0;  //é€€å‡ºç¨‹åº
 	else
-		{ cerr << "ÊäÈë´íÎó£¬ÇëÖØĞÂÊäÈë£º\n"; goto start; return -1; } //·µ»ØÖÁ»ñÈ¡³ÌĞò×´Ì¬½×¶Î
+		{ cerr << "è¾“å…¥é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥ï¼š\n"; goto start; return -1; } //è¿”å›è‡³è·å–ç¨‹åºçŠ¶æ€é˜¶æ®µ
 }*/
