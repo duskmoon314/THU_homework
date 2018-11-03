@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-/*
+
 int main() {
 	int x, y, z;
 	cout << "please input x, y, z: (seperated by Space)\n";
@@ -17,4 +17,4 @@ int main() {
 		cout << "Not triangle";
 
 	return 0;
-}//*/
+}
