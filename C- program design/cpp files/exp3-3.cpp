@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-/*
+
 int main() {
 	//为方便使用不同类型存储数据，变量名声明为 phoneNumber
 	//采用long long类型
@@ -28,4 +28,4 @@ int main() {
 	cout << fixed << phoneNumber;
 
 	return 0;
-}/*/
+}
