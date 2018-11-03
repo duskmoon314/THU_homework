@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-/*
+
 int main() {
 	int sheep[7], price;
 	sheep[0] = 1;
@@ -10,4 +10,4 @@ int main() {
 		cout << "month " << month << ": sheep " << sheep[month] << ", price " << price << endl;
 	}
 	return 0;
-}//*/
+}
